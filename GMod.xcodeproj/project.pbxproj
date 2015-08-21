@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4E3D40F1B876DC0006AA8E3 /* includes.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E3D40E1B876DC0006AA8E3 /* includes.h */; };
+		A4E3D4111B876DC0006AA8E3 /* IncludeDarwin.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E3D4101B876DC0006AA8E3 /* IncludeDarwin.h */; };
+		A4E3D4131B876DC0006AA8E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4E3D4121B876DC0006AA8E3 /* main.cpp */; };
+		A4E3D41C1B876E72006AA8E3 /* bassmod.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E3D41A1B876E72006AA8E3 /* bassmod.h */; };
+		A4E3D41D1B876E72006AA8E3 /* libbassmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3D41B1B876E72006AA8E3 /* libbassmod.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4E3D40B1B876DC0006AA8E3 /* libGMod.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libGMod.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E3D40E1B876DC0006AA8E3 /* includes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = includes.h; sourceTree = "<group>"; };
+		A4E3D4101B876DC0006AA8E3 /* IncludeDarwin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IncludeDarwin.h; sourceTree = "<group>"; };
+		A4E3D4121B876DC0006AA8E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4E3D41A1B876E72006AA8E3 /* bassmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bassmod.h; sourceTree = "<group>"; };
+		A4E3D41B1B876E72006AA8E3 /* libbassmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libbassmod.dylib; sourceTree = "<group>"; };
+		A4E3D4211B8777BB006AA8E3 /* returnmessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = returnmessages.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E3D4081B876DC0006AA8E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E3D41D1B876E72006AA8E3 /* libbassmod.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4E3D4021B876DC0006AA8E3 = {
+			isa = PBXGroup;
+			children = (
+				A4E3D40D1B876DC0006AA8E3 /* GMod */,
+				A4E3D40C1B876DC0006AA8E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E3D40C1B876DC0006AA8E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E3D40B1B876DC0006AA8E3 /* libGMod.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E3D40D1B876DC0006AA8E3 /* GMod */ = {
+			isa = PBXGroup;
+			children = (
+				A4E3D4191B876E1C006AA8E3 /* BassMod */,
+				A4E3D40E1B876DC0006AA8E3 /* includes.h */,
+				A4E3D4101B876DC0006AA8E3 /* IncludeDarwin.h */,
+				A4E3D4121B876DC0006AA8E3 /* main.cpp */,
+				A4E3D4211B8777BB006AA8E3 /* returnmessages.h */,
+			);
+			path = GMod;
+			sourceTree = "<group>";
+		};
+		A4E3D4191B876E1C006AA8E3 /* BassMod */ = {
+			isa = PBXGroup;
+			children = (
+				A4E3D41A1B876E72006AA8E3 /* bassmod.h */,
+				A4E3D41B1B876E72006AA8E3 /* libbassmod.dylib */,
+			);
+			name = BassMod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4E3D4091B876DC0006AA8E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E3D41C1B876E72006AA8E3 /* bassmod.h in Headers */,
+				A4E3D4111B876DC0006AA8E3 /* IncludeDarwin.h in Headers */,
+				A4E3D40F1B876DC0006AA8E3 /* includes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4E3D40A1B876DC0006AA8E3 /* GMod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E3D4161B876DC0006AA8E3 /* Build configuration list for PBXNativeTarget "GMod" */;
+			buildPhases = (
+				A4E3D4071B876DC0006AA8E3 /* Sources */,
+				A4E3D4081B876DC0006AA8E3 /* Frameworks */,
+				A4E3D4091B876DC0006AA8E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMod;
+			productName = GMod;
+			productReference = A4E3D40B1B876DC0006AA8E3 /* libGMod.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E3D4031B876DC0006AA8E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Vetra Games";
+				TargetAttributes = {
+					A4E3D40A1B876DC0006AA8E3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = A4E3D4061B876DC0006AA8E3 /* Build configuration list for PBXProject "GMod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4E3D4021B876DC0006AA8E3;
+			productRefGroup = A4E3D40C1B876DC0006AA8E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E3D40A1B876DC0006AA8E3 /* GMod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E3D4071B876DC0006AA8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E3D4131B876DC0006AA8E3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4E3D4141B876DC0006AA8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A4E3D4151B876DC0006AA8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A4E3D4171B876DC0006AA8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GMod",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4E3D4181B876DC0006AA8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GMod",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E3D4061B876DC0006AA8E3 /* Build configuration list for PBXProject "GMod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E3D4141B876DC0006AA8E3 /* Debug */,
+				A4E3D4151B876DC0006AA8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E3D4161B876DC0006AA8E3 /* Build configuration list for PBXNativeTarget "GMod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E3D4171B876DC0006AA8E3 /* Debug */,
+				A4E3D4181B876DC0006AA8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4E3D4031B876DC0006AA8E3 /* Project object */;
+}
