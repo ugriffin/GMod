@@ -16,6 +16,20 @@
 #define GMOD_INIT_FAIL 3
 #define GMOD_FILE_LOADERROR 4
 
+typedef enum vs_returnmessages
+{
+    GModReturnUnknownError = 0,
+    GModReturnNoError = 1,
+    GModReturnNotInitialised = 2,
+    GModReturnInitError = 3,
+    GModReturnFileLoadError = 4,
+    GModReturnFileDoesNotExist = 5,
+    GModReturnFileOpenError = 6,
+    GModReturnFileReadError = 7,
+    GModReturnTrackDoesNotExist = 8,
+    GModReturnTrackAlreadyDeleted = 9
+}GModReturnMessage;
+
 
 #define gmod_checkinit() if(!gmod_isinitialised()){return GMOD_NOT_INITIALISED;}
 

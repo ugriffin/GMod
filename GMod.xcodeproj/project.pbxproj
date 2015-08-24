@@ -12,6 +12,9 @@
 		A4E3D4131B876DC0006AA8E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4E3D4121B876DC0006AA8E3 /* main.cpp */; };
 		A4E3D41C1B876E72006AA8E3 /* bassmod.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E3D41A1B876E72006AA8E3 /* bassmod.h */; };
 		A4E3D41D1B876E72006AA8E3 /* libbassmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3D41B1B876E72006AA8E3 /* libbassmod.dylib */; };
+		FFE5F3E61B8ABF6F00C76534 /* GModCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFE5F3E41B8ABF6F00C76534 /* GModCore.cpp */; };
+		FFE5F3E71B8ABF6F00C76534 /* GModCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE5F3E51B8ABF6F00C76534 /* GModCore.h */; };
+		FFE5F3E91B8ABFB000C76534 /* VSSynthesiseSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE5F3E81B8ABFB000C76534 /* VSSynthesiseSingleton.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A4E3D41A1B876E72006AA8E3 /* bassmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bassmod.h; sourceTree = "<group>"; };
 		A4E3D41B1B876E72006AA8E3 /* libbassmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libbassmod.dylib; sourceTree = "<group>"; };
 		A4E3D4211B8777BB006AA8E3 /* returnmessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = returnmessages.h; sourceTree = "<group>"; };
+		FFE5F3E41B8ABF6F00C76534 /* GModCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GModCore.cpp; sourceTree = "<group>"; };
+		FFE5F3E51B8ABF6F00C76534 /* GModCore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = GModCore.h; sourceTree = "<group>"; };
+		FFE5F3E81B8ABFB000C76534 /* VSSynthesiseSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSynthesiseSingleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				A4E3D4101B876DC0006AA8E3 /* IncludeDarwin.h */,
 				A4E3D4121B876DC0006AA8E3 /* main.cpp */,
 				A4E3D4211B8777BB006AA8E3 /* returnmessages.h */,
+				FFE5F3E41B8ABF6F00C76534 /* GModCore.cpp */,
+				FFE5F3E51B8ABF6F00C76534 /* GModCore.h */,
+				FFE5F3E81B8ABFB000C76534 /* VSSynthesiseSingleton.h */,
 			);
 			path = GMod;
 			sourceTree = "<group>";
@@ -80,6 +89,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE5F3E71B8ABF6F00C76534 /* GModCore.h in Headers */,
+				FFE5F3E91B8ABFB000C76534 /* VSSynthesiseSingleton.h in Headers */,
 				A4E3D41C1B876E72006AA8E3 /* bassmod.h in Headers */,
 				A4E3D4111B876DC0006AA8E3 /* IncludeDarwin.h in Headers */,
 				A4E3D40F1B876DC0006AA8E3 /* includes.h in Headers */,
@@ -143,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E3D4131B876DC0006AA8E3 /* main.cpp in Sources */,
+				FFE5F3E61B8ABF6F00C76534 /* GModCore.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +293,7 @@
 				A4E3D4181B876DC0006AA8E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

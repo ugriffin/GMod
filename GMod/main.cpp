@@ -1,7 +1,5 @@
-#include "includes.h"
 #include "returnmessages.h"
-
-bool isinitialised = false;
+#include "GModCore.h"
 
 /*Initialises GMod */
 /*Returns one of the GMOD_ERROR objects*/
@@ -23,23 +21,15 @@ DYLIBEXPORT int gmod_init(int device,float freq,bool mono,bool is8bit)
         flags = BASS_DEVICE_MONO;
     }
     
-    if(BASSMOD_Init(-1,freq, flags))
-    {
-        isinitialised = true;
-        return GMOD_NOERROR;
-    }
-    else
-    {
-        BASSMOD_Free();
-        return GMOD_INIT_FAIL;
-    }
+    return (int)GModCore::instance()->initialiseGMod(device, freq, flags);
+
 }
 
 /*Checks if GMod has been initialised*/
 /*Returns true if GMod has been initialised, false otherwise. */
 DYLIBEXPORT bool gmod_isinitialised()
 {
-    return isinitialised;
+    return GModCore::instance()->GModIsInitialised();
 }
 
 /*Loads a file into memory*/
