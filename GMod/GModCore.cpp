@@ -90,6 +90,10 @@ GModReturnMessage GModCore::deInitialiseGModCore()
     
     trackList.clear();
     
+    BASSMOD_Free();
+    
+    return GModReturnNoError;
+    
 }
 
 GModReturnMessage GModCore::releaseGMod()
